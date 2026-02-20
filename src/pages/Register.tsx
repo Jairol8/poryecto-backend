@@ -89,7 +89,7 @@ export default function Register() {
 
                 <div className="footer-links">
                     <span className="muted">¿Ya tienes cuenta?</span>
-                    <Link to="/login">Inicia Sesión</Link>
+                    <Link to="/">Inicia Sesión</Link>
                 </div>
             </div>
         </div>

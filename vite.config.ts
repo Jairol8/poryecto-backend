@@ -12,7 +12,7 @@ export default defineConfig({
     name:"Todo App",
     short_name: "Todo",
     description: "Una aplicacion de tareas simple",
-    start_url: "./",
+    start_url: "/login",
     display: "standalone",
     background_color: "#ffffff",
     theme_color: "#3f51b5",
@@ -37,7 +37,7 @@ export default defineConfig({
     ],
   },
     devOptions:{
-      enabled: true
+      enabled: false,
       },
     }),
   ],

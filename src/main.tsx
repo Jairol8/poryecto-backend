@@ -30,7 +30,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <Route path="/" element={<Navigate to="/dashboard" replace />} />
         
         {/* Cualquier ruta desconocida manda al login */}
-        <Route path="*" element={<Navigate to="/login" replace />} />
+        <Route path="*" element={<Navigate to="./" replace />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
